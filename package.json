@@ -1,0 +1,17 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "JWT Verification middleware",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "patrick.j.d.medina@accenture.com",
+  "license": "ISC",
+  "dependencies": {
+    "jwks-rsa": "^2.0.3",
+    "koa": "^2.13.1",
+    "koa-jwt": "^4.0.1"
+  }
+}
